@@ -1,13 +1,19 @@
 import React from 'react';
 
 import './App.css';
-import participants from "./Participants";
+
+import Participants from './Participants';
 
 
 function App(props) {
+
+  
   return (
     <div className="App">
-     <Participants id={} avatar={} inSession={}  onStage={}/>
+      {props.store.map(participant=>{
+       return <Participants key={participant.id} name={participant.name} id={participant.id} avatar={participant.avatar} inSession={participant.inSession}  onStage={participant.onStage}/>
+      })}
+     
     </div>
   );
 }
