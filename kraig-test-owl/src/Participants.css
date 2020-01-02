@@ -1,0 +1,27 @@
+.avatar{
+    background:gray;
+height:40px;
+border-radius:50%;
+margin-right:15px;
+}
+
+.boot{
+    color:blue;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 0.1;
+}
+p{
+    
+    color:gray;
+    /* font-weight:bold; */
+}
+
+.list{
+    display: flex;  
+    justify-content:flex-start;
+    
+    
+}
