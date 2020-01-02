@@ -3,12 +3,13 @@ import './Stage.css';
 
 
 export default function Stage(props){
-// 
-    //let onStage = props.onStage===true;
+
     return (
         <div className="stage">
-<div className="tile">{props.onStage===true ?<p><span>{props.name}</span> <img src={props.avatar} alt="avatar"></img></p>:""} </div>
+        {props.onStage===true && (
+<div className="tile"> <span>{props.name}</span> <img src={props.avatar} alt="avatar"></img> </div>
 
-        </div>
-    )
+        )
+        }</div>
+        )
 }
