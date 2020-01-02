@@ -1,5 +1,19 @@
-div{
+.stage{
     background: #373a36;
+    width:100%;
     
+    display:flex;
+    justify-content: space-between;
+flex-wrap: nowrap;
+    
+}
+
+.tile{
+    background:blue;
+    text-align:center;
+    width:200px;
+    height:300px;
+    border:2px solid red;
+    border-radius:50%;
     
 }
