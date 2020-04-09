@@ -4,4 +4,7 @@
   height:100vh;
 }
 
+.participant-list{
+  overflow-y:scroll;
+}
 

@@ -9,11 +9,16 @@ flex-wrap: nowrap;
 }
 
 .tile{
-    background:blue;
+    
     text-align:center;
     width:200px;
-    height:300px;
-    border:2px solid red;
-    border-radius:50%;
+    height:200px;
+   
     
+    
+}
+
+.stage-avatar{
+    border:1px solid black;
+    border-radius:50%;
 }

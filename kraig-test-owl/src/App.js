@@ -12,7 +12,7 @@ function App(props) {
   
   return (
     <div className="App">
-      <div>
+      <div className="participant-list">
       {props.store.map(participant=>{
        return <Participants key={participant.id} name={participant.name} id={participant.id} avatar={participant.avatar} inSession={participant.inSession}  onStage={participant.onStage}/>
       })} </div>
